@@ -1,42 +1,54 @@
-# Resume Builder
+# ByteCV
 
-This is a web application for building professional resumes. Users can fill out a form with their information, and the application will generate a formatted resume that can be previewed and downloaded as a DOCX file.
+ByteCV is a powerful and intuitive web-based resume builder designed to help individuals craft professional resumes effortlessly. The platform offers live previews, resume scoring, custom sections, and the ability to download Word-format resumes instantly.
 
-## Features
+🌐 **Live Site**: [https://bytecv.vercel.app/](https://bytecv.vercel.app/)  
+👨‍💻 **Created by**: Aryan Bhargava & Aryan Kumar
 
-*   Create and edit multiple sections of a resume (e.g., work experience, education, skills).
-*   Drag-and-drop to reorder sections.
-*   Live preview of the resume as you type.
-*   Download the resume in PDF or DOCX format.
-*   Light and dark theme support.
+---
 
-## Tech Stack
+## 🚀 Features
 
-*   **Framework**: [Next.js](https://nextjs.org/)
-*   **Language**: [TypeScript](https://www.typescriptlang.org/)
-*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-*   **UI Components**: [Shadcn UI](https://ui.shadcn.com/) (built on Radix UI)
-*   **Form Management**: [React Hook Form](https://react-hook-form.com/)
-*   **Schema Validation**: [Zod](https://zod.dev/)
-*   **PDF Generation**: [jsPDF](https://github.com/parallax/jsPDF) & [html2canvas](https://html2canvas.hertzen.com/)
-*   **DOCX Generation**: [docx](https://docx.js.org/)
+- ✅ **Live Resume Preview** as you type
+- ✅ **Resume Strength Score** (0–90 points) based on industry standards
+- ✅ Add and customize key sections:  
+  - `Education`  
+  - `Technical Skills`  
+  - `Projects`  
+  - `Professional Experience`  
+  - `Achievements`  
+  - `Extracurriculars`
+- ✅ **Custom Sections** support for full flexibility
+- ✅ Built-in Word Document Download (`.docx`)
+- ✅ Save and Reset buttons to manage progress
+- ✅ Responsive UI with light/dark theme toggle
+- ✅ Real-time sync between form data and document preview
 
-## Prerequisites
+---
 
-Make sure you have the following installed on your machine:
+## 🛠️ Tech Stack
 
-*   [Node.js](https://nodejs.org/en/) (v18 or later recommended)
-*   [pnpm](https://pnpm.io/installation)
+| Area                | Tech Stack                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| **Framework**       | [Next.js](https://nextjs.org/)                                              |
+| **Language**        | [TypeScript](https://www.typescriptlang.org/)                              |
+| **Styling**         | [Tailwind CSS](https://tailwindcss.com/)                                   |
+| **UI Components**   | [Shadcn UI](https://ui.shadcn.com/) (built on Radix UI)                     |
+| **Form Handling**   | [React Hook Form](https://react-hook-form.com/)                            |
+| **Validation**      | [Zod](https://zod.dev/)                                                     |
+| **Word Export**     | [docx](https://docx.js.org/)                                                |
+| **PDF Export (TODO)**| [jsPDF](https://github.com/parallax/jsPDF), [html2canvas](https://html2canvas.hertzen.com/) |
 
-## Getting Started
+---
 
-Follow these steps to get the project up and running on your local machine.
+## 📦 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/resume-builder.git
 cd resume-builder
+der
 ```
 
 ### 2. Install dependencies
